@@ -1,9 +1,12 @@
 import os
 
-import openai
-from flask import Flask, redirect, render_template, request, url_for
+# import openai
+from flask import Flask, redirect, render_template, request, url_for, send_from_directory
+import promptlayer
+promptlayer.api_key = "pl_05337f1031d3847d1ab630cb52132d16"
 
 app = Flask(__name__)
+openai = promptlayer.openai
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
@@ -12,7 +15,7 @@ def index():
     if request.method == "POST":
         animal = request.form["animal"]
         response = openai.Completion.create(
-            model="text-davinci-002",
+            model="text-davinci-003",
             prompt=generate_prompt(animal),
             temperature=0.6,
             max_tokens=2000
@@ -27,3 +30,10 @@ def generate_prompt(animal):
     return """请总结以下数据材料:\n\n{}:""".format(
         animal
     )
+
+@app.route('/<path:path>')
+def static_file(path):
+    return send_from_directory('static', path)
+
+if __name__ == '__main__':
+    app.run()
