@@ -18,20 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 毕非凡的大模型调教记录小站
+title: 毕非凡的学习记录小站
 email: biff19@mails.tsinghua.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-domain: bfpbr5.github.io
-baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: "https://bfpbr5.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  欢迎来到我的个人博客网站! 我的名字是毕非凡，我是一名正在学习生物信息学的学生。在这个网站上，我将会分享我学习这个迷人领域时的个人想法和经验。我想把这个博客作为一个平台，讨论生物信息学的最新发展，以及我自己学习这个学科的历程。我还将谈论我所参与的各种研究项目，以及我对整个生物信息学领域的想法。我希望通过这个博客来激励他人，并分享我对这一神奇研究领域的热情。谢谢你的阅读!
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  bfpbr5
 
 # Build settings
-theme: midnight
+theme: minima
 plugins:
   - jekyll-feed
 
