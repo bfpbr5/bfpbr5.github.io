@@ -69,3 +69,6 @@ However, incorporating temporal data comes with its own set of challenges such a
 ## Wrapping Up
 
 Pathformer is a significant stride forward in cancer research. By adeptly integrating multi-modal biological data with pathway information, it paves the way to understanding complex biological processes more effectively. Pathformer's enhanced focus on interpretability and the potential to incorporate temporal data further amplifies its capabilities. Continued research and collaborations between machine learning scientists and domain experts could see Pathformer revolutionizing cancer research and treatment approaches.
+
+## Reference
+[Xiaofan Liu, Yuhuan Tao, Zilin Cai, Pengfei Bao, Hongli Ma, Kexing Li, Yunping Zhu*, Zhi John Lu* (2023) Pathformer: biological pathway informed Transformer model integrating multi-modal data of cancer bioRxiv 10.1101/2023.05.23.541554](https://www.biorxiv.org/content/10.1101/2023.05.23.541554v1)
