@@ -2,8 +2,12 @@
 layout: post
 title:  "Study Plan of Bioinformatics"
 date:   2023-02-28 09:55:22 +0800
-categories: learning records
+categories: [archive, bioinformatics]
+tags: [learning-plan, bioinformatics, archive]
 ---
+
+
+> Archived: This was part of my earlier bioinformatics learning journey and is kept for reference.
 
 
 Month 1: 

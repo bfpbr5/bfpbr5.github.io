@@ -2,7 +2,8 @@
 layout: post
 title:  "Introducing Pathformer"
 date:   2023-06-23 23:55:22 +0800
-categories: paper reading
+categories: [archive, bioinformatics]
+tags: [cancer-research, transformer, archive]
 ---
 
 # Introducing Pathformer: A Revolutionary Model for Cancer Research
