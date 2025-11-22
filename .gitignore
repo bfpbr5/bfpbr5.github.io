@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+**/venv/
+ENV/
+
+# Environment files
+.env
+
+# Distribution / build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
